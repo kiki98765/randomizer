@@ -5,11 +5,12 @@
     <title>Random Game App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        padding: 20px;
-        background-color: #f4f4f4;
+    body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: flex-start; /* oder center für mittig */
     }
 
     h1 {
@@ -45,11 +46,10 @@
         width: 80%;
         max-width: 400px;
         text-align: center;
-        background-color: yellow; /* <-- TESTFARBE */
     }
 
     #nextBtn {
-        background-color: red; /* TESTFARBE *//*#34c759;*/
+        background-color: #34c759;
         width: 40%;       /* halb so breit */
         margin: 0 auto;   /* zentriert */
         display: block;   /* damit margin auto wirkt */
