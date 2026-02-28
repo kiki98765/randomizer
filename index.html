@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Game App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        .button-container {
+            margin-bottom: 20px;
+        }
+
+        button {
+            display: block;
+            width: 80%;
+            margin: 10px auto;
+            padding: 15px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            background-color: #007aff;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005ecb;
+        }
+
+        #result {
+            margin-top: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            min-height: 60px;
+        }
+
+        #nextBtn {
+            background-color: #34c759;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🎲 Random Game App</h1>
+
+<div class="button-container" id="gameButtons"></div>
+
+<div id="result"></div>
+<button id="nextBtn" style="display:none;">Nächster Zufallswert</button>
+
+<script src="script.js"></script>
+</body>
+</html>
